@@ -37,9 +37,30 @@ public class Problema1 {
                 System.out.println("El empleado "+nombre+" no tiene derecho a días de vacaciones.");
             }
         } else if (clave == 2){
+            if (años == 1){
+                System.out.println("El empleado "+nombre+" tiene derecho a 7 días de vacaciones.");
+            }
+            else if (años == 2 && años <= 6){
+                System.out.println("El empleado "+nombre+" tiene derecho a 15 días de vacaciones.");
+            }
+            else if (años >= 7){
+                System.out.println("El empleado "+nombre+" tiene derecho a 22 días de vacaciones.");
+            } else {
+                System.out.println("El empleado "+nombre+" no tiene derecho a días de vacaciones.");
+            }
 
         } else if (clave == 3){
-
+            if (años == 1){
+                System.out.println("El empleado "+nombre+" tiene derecho a 10 días de vacaciones.");
+            }
+            else if (años == 2 && años <= 6){
+                System.out.println("El empleado "+nombre+" tiene derecho a 20 días de vacaciones.");
+            }
+            else if (años >= 7){
+                System.out.println("El empleado "+nombre+" tiene derecho a 30 días de vacaciones.");
+            } else {
+                System.out.println("El empleado "+nombre+" no tiene derecho a días de vacaciones.");
+            }
         } else{
             System.out.println("No existe ese departamento.");
         }
