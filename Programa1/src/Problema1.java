@@ -19,10 +19,10 @@ public class Problema1 {
         nombre = entrada.nextLine();
 
         System.out.println("¿En qué departamento está?");
-        clave = entrada.nextLine();
+        clave = entrada.nextInt();
 
         System.out.println("¿Cuántos años lleva trabajando en la empresa?");
-        años = entrada.nextLine();
+        años = entrada.nextInt();
 
         if (clave == 1){
             if (años == 1){
