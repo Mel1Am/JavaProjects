@@ -1,0 +1,22 @@
+public class Promedio{
+    public static void main (String arg[]){
+        int materia1 = 5; /* matematicas */
+        int materia2 = 8; /* biologia*/
+        int materia3 = 7; /* quimica */
+
+        int promedio = 0;
+
+        promedio = (materia1 + materia2 + materia3)/3;
+
+        System.out.prinln("El promedio es: " + promedio);
+
+        if(promedio >= 6){
+            System.out.println("El alumno aprobó con: " + promedio);
+
+        } else {
+            System.out.println("El alumno reprobó con: " + promedio);
+        }
+
+
+    }
+}

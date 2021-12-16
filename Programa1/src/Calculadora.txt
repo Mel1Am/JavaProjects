@@ -1,0 +1,9 @@
+public class Operaciones{
+    public static void main (String arg[]){
+        int op1 = 1;
+        int num_uno = 8;
+        int num_dos = 4;
+        int resultado = 0;
+        
+    }
+}
