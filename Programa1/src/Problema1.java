@@ -26,7 +26,13 @@ public class Problema1 {
 
         if (clave == 1){
             if (años == 1){
-                System.out.println("El empleado "+nombre+" tiene derecho ");
+                System.out.println("El empleado "+nombre+" tiene derecho a 6 días de vacaciones.");
+            }
+            else if (años == 2 && años <= 6){
+                System.out.println("El empleado "+nombre+" tiene derecho a 14 días de vacaciones.");
+            }
+            else if (años >= 7){
+                System.out.println("El empleado "+nombre+" tiene derecho a 20 días de vacaciones.");
             }
         } else if (clave == 2){
 
