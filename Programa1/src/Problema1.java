@@ -33,6 +33,8 @@ public class Problema1 {
             }
             else if (años >= 7){
                 System.out.println("El empleado "+nombre+" tiene derecho a 20 días de vacaciones.");
+            } else {
+                System.out.println("El empleado "+nombre+" no tiene derecho a días de vacaciones.");
             }
         } else if (clave == 2){
 
